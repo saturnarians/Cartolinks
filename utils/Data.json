@@ -1,0 +1,77 @@
+[
+  {
+    "icon": "Image",
+    "title": "Image",
+    "desc": " Generate images with custom styles in Flux and ideaogram.",
+    "buttonLabel": "Open Image",
+    "isNew": true,
+    "iconClass": "w-15 h-15 mr-1 bg-gradient-to-b from-gray-800 to-gray-200 rounded-md border-transparent px-2 py-2",
+    "buttonClass":"md:py-2 px-4 my-6 text-gray-800 text-[10px] font-bold bg-gray-400 rounded-[25px] h-[30px] w-[90px]"
+  },
+
+  {
+    "icon": "Video",
+    "title": "Video",
+    "desc": " Generate videos eith Haluo and Pica, Runway Luma and more.",
+    "buttonLabel": "Video",
+    "isNew": true,
+    "iconClass": "w-15 h-15 mr-1 bg-gradient-to-b from-yellow-700 to-yellow-500 rounded-md border-inherit px-2 py-2",
+    "buttonClass":"md:py-2 px-4 my-6 text-gray-800 text-[10px] font-bold bg-gray-400 rounded-[25px] h-[30px] w-[90px]"
+  },
+
+  {
+    "icon": "Brush",
+    "title": "Realtime",
+    "desc": " Realtime Ai rendering on a canvas. Instant feedback loops.",
+    "buttonLabel": "Open Realtime",
+    "iconClass": "w-15 h-15 mr-1 bg-gradient-to-b from-blue-500 to-blue-300 rounded-md border-inherit px-2 py-2",
+    "buttonClass":"md:py-2 px-4 my-6 text-gray-800 text-[10px] font-bold bg-gray-400 rounded-[25px] h-[30px] w-[90px]"
+  },
+
+  {
+    "icon": "WandSparkles",
+    "title": "Enhancer",
+    "desc": " Lipscale and enhance images and videos uo to 22k.",
+    "buttonLabel": "Enhancer",
+    "iconClass": "w-15 h-15 mr-1 bg-gradient-to-b from-gray-400 to-gray-900 rounded-md border-inherit px-2 py-2 ",
+    "buttonClass":"md:py-2 px-4 my-6 text-gray-800 text-[10px] font-bold bg-gray-400 rounded-[25px] h-[30px] w-[90px]"
+  },
+
+  {
+    "icon": "DraftingCompass",
+    "title": "Edit",
+    "desc": " Add attach change style, or expand portfolio and generations.",
+    "buttonLabel": "Edit Image",
+    "isNew": true,
+    "iconClass": "w-15 h-15 mr-1 bg-gradient-to-b from-purple-800 to-purple-300 rounded-md border-inherit px-2 py-2",
+    "buttonClass":"md:py-2 px-4 my-6 text-gray-800 text-[10px] font-bold bg-gray-400 rounded-[25px] h-[30px] w-[90px]"
+  },
+
+  {
+    "icon": "MicVocal",
+    "title": "Video Lipsync",
+    "desc": " Lip sync any video to any audio.",
+    "buttonLabel":"Video Lipsync",
+    "isNew": true,
+    "iconClass": "w-15 h-15 mr-1 bg-gradient-to-b from-green-800 to-green-400 rounded-md border-inherit px-2 py-2",
+    "buttonClass":"md:py-2 px-4 my-6 ml-10 text-gray-800 text-[10px] font-bold bg-gray-400 rounded-[25px] h-[30px] w-[70px]"
+  },
+
+  {
+    "icon": "PersonStanding",
+    "title": "Motion Transfer",
+    "desc": " Transfer motion to images and animals characters.",
+    "buttonLabel": "Motion Transfer",
+    "iconClass": "w-15 h-15 mr-1 bg-gradient-to-b from-gray-900 to-gray-900 rounded-md border-inherit px-2 py-2 text-white",
+    "buttonClass":"md:py-2 px-4 my-6 text-gray-800 text-[10px] font-bold bg-gray-400 rounded-[25px] h-[30px] w-[90px]"
+  },
+
+  {
+    "icon": "BrainCog",
+    "title": "Train",
+    "desc": " Teach krea to replicate your style products or characters.",
+    "buttonLabel": "Train",
+    "iconClass": "w-15 h-15 mr-1 bg-gradient-to-b from-gray-200 to-gray-300 rounded-md border-inherit px-2 py-2 ",
+    "buttonClass":"md:py-2 px-4 my-6 text-gray-800 text-[10px] font-bold bg-gray-400 rounded-[25px] h-[30px] w-[90px]"
+  }
+]
