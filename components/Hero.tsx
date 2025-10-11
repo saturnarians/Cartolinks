@@ -1,23 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import { useContext } from "react";
-import { ThemeContext } from "@/context/ThemeProvider";
 
 export default function Hero() {
 
-  const themeContext =  useContext(ThemeContext);
-  if(!themeContext) throw new Error(" Must be used inside ThemeProvider wrapper ");
-
-  const { theme } = themeContext;
-
-
   return (
-    <section className={`${theme === "light" ? "bg-white text-black" : "bg-gray-900 text-white"}
-      grid grid-cols-2 gap-4 px-4 py-8 `}>
-        <div className={`{theme === "light" ? "bg-white text-black" : "bg-gray-900 text-white"}
-          relative rounded-xl overflow-hidden shadow-md`}>
+    <section className="grid grid-cols-2 gap-4 px-4 py-8 ">
+        <div className="relative rounded-xl overflow-hidden shadow-md">
             <Image
+            // src="https://s.krea.ai/announce-wan-2-2-image.webp"
             src="/Wan_2.2.jpg"
             alt="WAN 2.2"
             className="w-full h-74 object-cover"
@@ -35,10 +26,11 @@ export default function Hero() {
 
         <div className="relative rounded-xl overflow-hidden shadow-md">
             <Image
+            // src="https://s.krea.ai/OSSKreaFlux1_video.mp4"
             src="/Open_source.jpg"
             alt="Flux 1 Krea"
             className="w-full h-74 object-cover"
-                        width={300}
+            width={300}
             height={400}
             />
             <div className="absolute inset-0 bg-black/40 flex-col justify-end p-4 text-white">

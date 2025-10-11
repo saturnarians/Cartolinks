@@ -2,7 +2,15 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  // add turbopack.root
+  images: {
+    remotePatterns:[
+     { 
+      protocol: 'https',
+      hostname: 's.krea.ai',
+      pathname: '',
+  }
+  ],
+ },
 };
 
 export default nextConfig;

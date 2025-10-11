@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
-import ThemeWrapper from "./ThemeWrapper";
+// import ThemeWrapper from "./ThemeWrapper";
 import { Fragment } from "react";
+import { ThemeProviders } from '@/context/ThemeProvider'
 
 export const metadata: Metadata = {
   title: "Frontend Test",
@@ -15,7 +16,14 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning >
       <body>
         <Fragment>
-          <ThemeWrapper> {children} </ThemeWrapper>
+          <ThemeProviders 
+          attribute="class" 
+          defaultTheme='system' 
+          enableSystem
+          disableTransitionOnChange
+          > 
+            {children} 
+            </ThemeProviders>
         </Fragment>
       </body>
     </html>
