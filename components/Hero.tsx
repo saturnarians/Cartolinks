@@ -16,8 +16,8 @@ export default function Hero() {
           height={400}
         />
         <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4 text-white">
-          <h2 className="text-3xl font-bold">WAN 2.2 Image generation </h2>
-          <p className="text-sm w-md ">Generate complex images with the brand new and powerful WAN2.2 model. Exceptional prompt adherence and ultra realistic textures.</p>
+          <h2 className="text-2xl md:text-3xl font-bold">WAN 2.2 Image generation </h2>
+          <p className="text-sm md:w-md w-sm px-4 ">Generate complex images with the brand new and powerful WAN2.2 model. Exceptional prompt adherence and ultra realistic textures.</p>
           <button className="absolute left-[500px]
           mt-2 bg-white text-black px-2 rounded-[30px] text-sm font-semibold cursor-pointer w-30 h-[30px]">
             Try WAN 2.2
