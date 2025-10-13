@@ -41,8 +41,11 @@ export default function Hero() {
         ></video>
 
         <div className="absolute inset-0 bg-black/40 flex-col justify-end p-4 text-white">
-          <h2 className="text-3xl font-bold">Open Source</h2>
-          <p className="text-sm">FLUX1 krea model, open weights.</p>
+          <h2 className="text-2xl md:text-3xl font-bold">FLUX.1 krea</h2>
+          <p className="text-sm md:w-md w-sm px-4"> 
+          We're making the weights to our FLUX.1 Kres model open source
+          Download and run our model weights, read the technical report, or generate with it in Krea Image.
+          </p>
         </div>
       </div>
     </section>
