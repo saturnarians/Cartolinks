@@ -7,7 +7,8 @@ const nextConfig: NextConfig = {
      { 
       protocol: 'https',
       hostname: 's.krea.ai',
-      pathname: '',
+      port: '',
+      pathname: '/**',
   }
   ],
  },

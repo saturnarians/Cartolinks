@@ -1,4 +1,5 @@
 "use client";
+
 import { Moon, Sun } from "lucide-react";
 import { useState, useEffect} from "react";
 import {useTheme} from 'next-themes';
@@ -18,7 +19,7 @@ export default function ThemeToggle() {
 
 return (
 
-  <div className="w-4 h-6 py-[9.4px] hover:bg-inherit hover:scale-105 transform transition duration-200 ease-in-out">
+  <div className="w-4 h-6 py-[9.7px] hover:bg-inherit hover:scale-105 transform transition duration-200 ease-in-out">
      <button onClick={toggleTheme}>
         { resolvedTheme === "dark" ? (<Sun className="w-6 h-4 fill-black"/>) : (<Moon className="w-6 h-4 fill-black"/>) }
       </button>
