@@ -63,7 +63,7 @@ export default function DesktopMenu({className}: DesktopMenuProps) {
         </a>
 
         <ThemeToggle />
-        <div className="bg-purple-600 border-transparent rounded-[50px] w-[15px] h-[15px] mt-2.5 ml-2"></div>
+        <div className="bg-purple-600 border-transparent rounded-[50px] w-[15px] h-[15px] mt-[20px] ml-1 md:mt-2.5 md:ml-2"></div>
       </div>
     </nav>
   );
