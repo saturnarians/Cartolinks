@@ -1,7 +1,6 @@
 "use client";
 
 import { House, Image, Video, Brush, WandSparkles, Folder, DraftingCompass } from 'lucide-react';
-import Image from 'next/image';
 import { useTheme } from 'next-themes';
 import { useState, useEffect} from 'react';
 
