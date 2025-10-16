@@ -16,9 +16,9 @@ pnpm install
 
 npm run dev 
 # or 
-# yarn dev
+yarn dev
 # or 
-# pnpm dev
+pnpm dev
 
 3. Open your browser and navigate to http://localhost:3000 to view the app.
 
